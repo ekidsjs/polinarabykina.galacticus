@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  text-align: center;
+  background: url(img/space.png) no-repeat center;
+  background-size: cover;
+  color: white;
+}
+li{
+  height: 80px;
+  width: 80px;
+  display: inline-block; 
+  margin: 40px 10px;
+}
+img{
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  transition: all 70ms ease-in-out;
+}
+img:hover{
+  padding: 0px
+}
+  button{
+  background-color:red;
+  height:50px;
+  width:140px;
+  border: 2px;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+
+button:hover{
+  background-color: transparent;
+}
+p{
+  width: 35%;
+  margin: auto;
+  padding-bottom: 40px;
+}
